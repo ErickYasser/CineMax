@@ -1,0 +1,25 @@
+start - Iniciar bot
+myuser - Configuración actual
+help - Ayuda sobre el bot
+useradm - Ver si eres admin o usuario del bot
+token - Ver token de la cuenta
+admin - Añadir admin
+add - Añadir usuario
+preview - Añadir usuario en modo prueba
+ban - Banear usuario
+acc - Credenciales (usuario,contraseña)
+host - Url de la nube
+zips - Tamaño de zips
+repo - Repo ID
+cloud - Tipo de nube (moodle o cloud)
+dir - Carpeta destino de la cloud
+uptype - Tipo de subida a moodles (evidence, draft, blog, calendar)
+files - Archivos de la nube
+proxy - Equipar proxy
+off_proxy - Desequipar proxy
+cript - Encriptar proxy
+decript - Desencriptar proxy
+view_proxy - Ver proxy actual
+encript_on - Encriptar enlaces de descarga
+encript_off - No Encriptar enlaces de descarga
+about - Información sobre el bot
