@@ -97,9 +97,8 @@ def createFileMsg(filename,files):
             url = urllib.parse.unquote(f['directurl'],encoding='utf-8', errors='replace')
             #msg+= '<a href="'+f['url']+'">🔗' + f['name'] + '🔗</a>'
             msg+= "<a href='"+url+"'>🔗"+f['name']+'🔗</a>\n'
-
-            msg+= '🍿Mantengase en #CINEMAX con @ErickYasser, la mejor opcion sin duda🍿'
         return msg
+            msg+= '🍿Mantengase en #CINEMAX con @ErickYasser, la mejor opcion sin duda🍿'
     return ''
 
 def createFilesMsg(evfiles):
