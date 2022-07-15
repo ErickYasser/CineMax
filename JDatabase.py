@@ -29,13 +29,13 @@ class JsonDatabase(object):
     def create_user(self,name):
         self.items[name] = {'dir': '',
                      'cloudtype': 'moodle',
-                     'moodle_host': '---',
+                     'moodle_host': 'https://evea.uh.cu/',
                      'moodle_repo_id': 4,
-                     'moodle_user': '---',
-                     'moodle_password': '---',
+                     'moodle_user': 'diovi.tirador@estudiantes.fbio.uh.cu',
+                     'moodle_password': 'humboldt',
                      'isadmin': 0,
-                     'zips': 100,
-                     'uploadtype':'calendar',
+                     'zips': 249,
+                     'uploadtype':'draft',
                      'proxy':'',
                      'tokenize':0,
                      'existe':1}
@@ -43,13 +43,13 @@ class JsonDatabase(object):
     def create_admin(self,name):
         self.items[name] = {'dir': '',
                      'cloudtype': 'moodle',
-                     'moodle_host': '---',
+                     'moodle_host': 'https://evea.uh.cu/',
                      'moodle_repo_id': 4,
-                     'moodle_user': '---',
-                     'moodle_password': '---',
+                     'moodle_user': 'diovi.tirador@estudiantes.fbio.uh.cu',
+                     'moodle_password': 'humboldt',
                      'isadmin': 1,
-                     'zips': 100,
-                     'uploadtype':'calendar',
+                     'zips': 249,
+                     'uploadtype':'draft',
                      'proxy':'',
                      'tokenize':0}
 
